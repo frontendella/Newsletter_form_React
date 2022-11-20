@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/frontendella/Newsletter_form_React/precache-manifest.56a79afcdf0560d61b00f289c6d26d9c.js"
+  "/Newsletter_form_React/precache-manifest.9cc3dd4140efffff39114de5a73a3ebf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/frontendella/Newsletter_form_React/index.html", {
+workbox.routing.registerNavigationRoute("/Newsletter_form_React/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
